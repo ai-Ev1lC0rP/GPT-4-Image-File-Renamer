@@ -12,6 +12,10 @@ This project provides a tool to rename image files based on descriptions generat
 
 ![Processing Images Window with GPT-4 Vision Progress Bar](screenshots/Processing_Images_Window_with_GPT4_Vision_Progress_Bar.png "Processing Images Window with GPT-4 Vision Progress Bar")
 
+### Renamed Image Example
+
+![Renamed Image Example](screenshots/explorer_GHZCep7mQ0.png "Renamed Image Example")
+
 ## Installation
 
 Before you begin, ensure you have Python installed on your system. Python 3.6 or higher is required.
