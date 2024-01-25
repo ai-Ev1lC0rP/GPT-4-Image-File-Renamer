@@ -45,21 +45,9 @@ Note: You will need to restart the command prompt for the changes to take effect
 
 ## Usage
 
-To add a context menu entry to process images with GPT-4 Vision, run the `run.bat` file from the command prompt. This will not start the renaming process but will add an entry to the Windows context menu, allowing you to right-click on image files and process them with GPT-4 Vision.
+To use the GPT-4 Image File Renamer, simply run the `run.bat` file from the command prompt. This will add a new entry to the Windows context menu, allowing you to right-click on image files and process them with GPT-4 Vision.
 
-To start the process of renaming your image files, you will need to run the `image_processor.py` script directly with Python. Make sure to navigate to the directory where the `image_processor.py` file is located before running it. Place the images you want to process in the same directory or provide the path to the images as arguments when running the script.
-
-```bash
-python image_processor.py <path_to_image>
-```
-
-You can also process multiple images at once by providing multiple paths.
-
-```bash
-python image_processor.py <path_to_image1> <path_to_image2> <path_to_image3>
-```
-
-After running the script, a context menu entry will be added. You can then right-click on an image file and select "Process with GPT-4 Vision" to rename the image using the GPT-4 Vision API.
+Once the context menu entry is added, you can right-click on any image file in Windows Explorer and select "Process with GPT-4 Vision". The GPT-4 Vision API will analyze the image and suggest a new, descriptive file name based on its content. Confirm the rename action, and the file will be renamed automatically.
 
 ## How It Works
 
