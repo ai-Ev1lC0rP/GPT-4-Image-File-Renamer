@@ -26,7 +26,6 @@ git clone https://github.com/your-username/gpt-4-image-file-renamer.git
 cd gpt-4-image-file-renamer
 ```
 
-
 1. Clone the repository or download the ZIP file and extract it to a local directory.
 2. Navigate to the project directory in your command prompt or terminal.
 3. Install the required dependencies by running:
